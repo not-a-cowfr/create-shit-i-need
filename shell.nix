@@ -9,7 +9,7 @@ pkgs.mkShell rec {
   ];
 
   buildInputs = with pkgs; [
-  lspci
+    pciutils
     flite
     glfw
     libGL
