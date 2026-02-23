@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredient": "minecraft:cobblestone",
+  "fluid_ingredient": {
+    "type": "fluid_stack",
+    "amount": 1000,
+    "components": {
+      "create:potion_fluid_bottle_type": "regular",
+      "minecraft:potion_contents": {
+        "potion": "minecraft:fire_resistance"
+      }
+    },
+    "fluid": "create:potion"
+  },
+  "result": {
+    "id": "minecraft:netherrack"
+  }
+}
