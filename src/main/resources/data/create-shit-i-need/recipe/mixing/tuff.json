@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": ["minecraft:gravel","minecraft:gravel","minecraft:gravel","minecraft:sand"],
+  "results": [
+    {
+      "id": "minecraft:tuff",
+      "count": 2
+    },
+    {
+      "id": "minecraft:tuff",
+      "count": 1,
+      "chance": 0.5
+    },
+    {
+      "id": "minecraft:tuff",
+      "count": 1,
+      "chance": 0.5
+    }
+  ]
+}
