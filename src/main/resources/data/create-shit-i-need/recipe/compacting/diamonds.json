@@ -1,0 +1,21 @@
+{
+  "type": "create:compacting",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    "minecraft:coal_block",
+    "minecraft:coal_block",
+    "minecraft:coal_block",
+    "minecraft:coal_block",
+    "minecraft:coal_block",
+    "minecraft:coal_block",
+    "minecraft:coal_block",
+    "minecraft:coal_block",
+    "minecraft:coal_block"
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "minecraft:diamond"
+    }
+  ]
+}

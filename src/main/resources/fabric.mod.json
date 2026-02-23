@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 1,
+	"id": "create-shit-i-need",
+	"version": "${version}",
+	"name": "Create: SIN",
+	"description": "adds addons i want that arent available for create-fly",
+	"authors": [
+		"not-a-cowfr"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/create-shit-i-need/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "fr.notacow.create.CreateShitINeed",
+				"adapter": "kotlin"
+			}
+		],
+		"client": [
+			{
+				"value": "fr.notacow.create.CreateShitINeedClient",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"create-shit-i-need.mixins.json",
+		{
+			"config": "create-shit-i-need.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*",
+		"fabric-language-kotlin": "*"
+	}
+}
