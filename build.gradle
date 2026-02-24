@@ -38,7 +38,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"create-shit-i-need" {
+		"create-fly-addons" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}

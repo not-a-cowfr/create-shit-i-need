@@ -9,7 +9,7 @@ import net.minecraft.world.food.FoodProperties
 import net.minecraft.world.item.Item
 
 
-object ModItems {
+object CFAItems {
     val GOLDEN_TICKET_CHOCOLATE_BAR: Item = register(
         name = "golden_ticket_chocolate_bar",
         properties = Item.Properties().food(
@@ -27,7 +27,7 @@ object ModItems {
     ): Item {
         val key = ResourceKey.create(
             Registries.ITEM,
-            Identifier.fromNamespaceAndPath(CreateShitINeed.MOD_ID, name)
+            Identifier.fromNamespaceAndPath(CreateFlyAddons.MOD_ID, name)
         )
         return itemFactory(properties.setId(key))
             .also { Registry.register(BuiltInRegistries.ITEM, key, it) }

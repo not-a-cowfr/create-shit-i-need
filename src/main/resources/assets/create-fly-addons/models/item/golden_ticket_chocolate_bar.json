@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "create-fly-addons:item/golden_ticket_chocolate_bar"
+  }
+}

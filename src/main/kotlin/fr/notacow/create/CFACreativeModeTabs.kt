@@ -13,16 +13,16 @@ import net.minecraft.world.item.CreativeModeTab.ItemDisplayParameters
 import net.minecraft.world.item.ItemStack
 
 
-object ModCreativeModeTabs {
+object CFACreativeModeTabs {
     val GROUP: ResourceKey<CreativeModeTab> = ResourceKey.create(
         Registries.CREATIVE_MODE_TAB, Identifier.fromNamespaceAndPath(
-        CreateShitINeed.MOD_ID, "base"))
+        CreateFlyAddons.MOD_ID, "base"))
 
     private fun register() {
         Registry.register(
             BuiltInRegistries.CREATIVE_MODE_TAB,
             GROUP,
-            FabricItemGroup.builder().title(Component.translatable("itemGroup.create-shit-i-need"))
+            FabricItemGroup.builder().title(Component.translatable("itemGroup.create-fly-addons"))
                 .icon { ItemStack(AllItems.EXP_NUGGET) }
                 .displayItems { _: ItemDisplayParameters, entries: CreativeModeTab.Output ->
                     base(
@@ -38,6 +38,6 @@ object ModCreativeModeTabs {
     }
 
     private fun base(/*displayContext: ItemDisplayParameters,*/ entries: CreativeModeTab.Output) {
-        entries.accept { ModItems.GOLDEN_TICKET_CHOCOLATE_BAR }
+        entries.accept { CFAItems.GOLDEN_TICKET_CHOCOLATE_BAR }
     }
 }

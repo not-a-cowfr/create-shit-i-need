@@ -4,14 +4,15 @@ import com.zurrtum.create.Create
 import net.fabricmc.api.ModInitializer
 import org.slf4j.LoggerFactory
 
-object CreateShitINeed : ModInitializer {
-	const val MOD_ID: String = "create-shit-i-need"
-	const val NAME: String = "Create: SIN"
+object CreateFlyAddons : ModInitializer {
+	const val MOD_ID: String = "create-fly-addons"
+	const val NAME: String = "Create Fly Addons"
 	val logger = LoggerFactory.getLogger(MOD_ID)!!
 
 	override fun onInitialize() {
 		logger.info("Create addon mod $NAME loading alongside Create version ${Create.VERSION}")
-		ModItems.initialize()
-		ModCreativeModeTabs.initialize()
+
+		CFAItems.initialize()
+		CFACreativeModeTabs.initialize()
 	}
 }
