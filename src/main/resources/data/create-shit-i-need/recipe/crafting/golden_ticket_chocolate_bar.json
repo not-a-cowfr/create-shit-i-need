@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "create:bar_of_chocolate",
+    "create:golden_sheet",
+    "create:experience_nugget"
+  ],
+  "result": {
+    "id": "create-shit-i-need:golden_ticket_chocolate_bar",
+    "count": 1
+  }
+}

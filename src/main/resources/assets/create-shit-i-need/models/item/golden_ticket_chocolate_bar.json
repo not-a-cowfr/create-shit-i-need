@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "create-shit-i-need:item/golden_ticket_chocolate_bar"
+  }
+}

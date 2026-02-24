@@ -11,5 +11,7 @@ object CreateShitINeed : ModInitializer {
 
 	override fun onInitialize() {
 		logger.info("Create addon mod $NAME loading alongside Create version ${Create.VERSION}")
+		ModItems.initialize()
+		ModCreativeModeTabs.initialize()
 	}
 }
