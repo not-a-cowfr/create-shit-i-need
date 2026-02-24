@@ -27,7 +27,7 @@ object ModItems {
     ): Item {
         val key = ResourceKey.create(
             Registries.ITEM,
-            Identifier.fromNamespaceAndPath(CreateShitINeed.ID, name)
+            Identifier.fromNamespaceAndPath(CreateShitINeed.MOD_ID, name)
         )
         return itemFactory(properties.setId(key))
             .also { Registry.register(BuiltInRegistries.ITEM, key, it) }

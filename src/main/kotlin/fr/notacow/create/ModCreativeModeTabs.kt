@@ -16,7 +16,7 @@ import net.minecraft.world.item.ItemStack
 object ModCreativeModeTabs {
     val GROUP: ResourceKey<CreativeModeTab> = ResourceKey.create(
         Registries.CREATIVE_MODE_TAB, Identifier.fromNamespaceAndPath(
-        CreateShitINeed.ID, "base"))
+        CreateShitINeed.MOD_ID, "base"))
 
     private fun register() {
         Registry.register(
