@@ -13,7 +13,7 @@ adds some stuff from other addons that haven't been ported to [Create Fly] yet
 - Compacting
   - 9x coal blocks will compact into a single diamond when superheated
 - Mixing
-  - 3 gravel + 1 sand will turn into 2-4 tuff when superheated
+  - 3 gravel + 1 sand will turn into 2-4 tuff when heated
 - Filling
   - 1000mb of fire resistance poured on cobblestone creates netherrack
 - Crafting
